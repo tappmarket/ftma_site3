@@ -1,0 +1,1 @@
+import{g as t,p as e}from"./request.304a15fc.js";async function c(){return(await t("/tasks")).data.tasks}async function i(s){return(await t(`/task/${s}`)).data}async function o(s,a){return(await e(`/agentTasksActions/${s}`,a)).data}export{i as a,c as g,o as s};
